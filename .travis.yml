@@ -1,7 +1,7 @@
 language: java
 deploy:
   provider: heroku
-  api_key: 9d6b40ff-902c-451a-be4a-dfcce64a2118
+  api_key: $HEROKU-API-KEY
   app: tarif-eisti-man
 before_install:
   - chmod +x mvnw
